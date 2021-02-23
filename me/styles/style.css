@@ -66,9 +66,9 @@
 }
 
 .mePage{
-	width: 900px;
-	height: 600px;
-	margin: 160px auto;
+	width: 1000px;
+	height: 800px;
+	margin: 30px auto;
 	background-color: #CAEBF2;
 	border-radius: 8px 8px;
 	border-color: #CAEBF2;
@@ -87,20 +87,20 @@
 }
 
 .aboutBox{
-	width: 800px;
-	height: 525px;
+	width: 900px;
+	height: 700px;
 	margin: auto;
 }
 
 .about{
-	font: normal 20px "Century Gothic";
+	font: normal 28px "Century Gothic";
 	color: #05386B
 }
 
 .contact{
-	font: bold 20px "Century Gothic";
+	font: bold 25px "Century Gothic";
 	text-align: center;
-	color: #C1C5C0
+	color: #C1C5C0;
 }
 
 .lang{
