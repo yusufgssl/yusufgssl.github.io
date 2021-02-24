@@ -68,7 +68,7 @@
 
 .projectsList{
 	width: 100%;
-	height: 720px;
+	height: 2000px;
 	background-color: #05386B;
 	text-align: center;
 	margin: 400px auto;
@@ -80,7 +80,7 @@
 	width: 200px;
 	height: 40px;
 	background: #CAEBF2;
-	font: 16px bold tahoma;
+	font: bold 16px "Century Gothic";
 	color: #05386B;
 	text-align: center;
 	margin: 0px auto	
