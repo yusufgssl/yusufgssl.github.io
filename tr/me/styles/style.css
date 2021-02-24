@@ -8,7 +8,7 @@
 
 .header{
 	width: 100%;
-	height: 1020px;
+	height: auto;
 	background: #05386B
 }
 
@@ -66,9 +66,9 @@
 }
 
 .mePage{
-	width: 1000px;
-	height: 800px;
-	margin: 30px auto;
+	width: auto;
+	height: auto;
+	margin: 30px 60px;
 	background-color: #CAEBF2;
 	border-radius: 8px 8px;
 	border-color: #CAEBF2;
@@ -87,14 +87,15 @@
 }
 
 .aboutBox{
-	width: 900px;
-	height: 700px;
+	width: auto;
+	height: auto;
 	margin: auto;
 }
 
 .about{
-	font: normal 28px "Century Gothic";
-	color: #05386B
+	font: normal 2vw "Century Gothic";
+	color: #05386B;
+	margin: 10px 30px
 }
 
 .contact{
