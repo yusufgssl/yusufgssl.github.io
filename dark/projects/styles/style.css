@@ -1,28 +1,28 @@
 .menu{
 	width: 100%;
 	height: 40px;
-	background: #CAEBF2;
-	border-bottom: 2px #C1C5C0;
+	background: #161B22;
+	border-bottom: 2px #CAEBF2;
 	border-style: ridge
 }
 
 .header{
 	width: 100%;
 	height: 100%;
-	background: #05386B
+	background: #06090F
 }
 
 .footer{
 	width: 100%;
 	height: 40px;
-	background: #CAEBF2;
+	background: #161B22;
 }
 
 .menuBar{
 	width: 420px;
 	height: 40px;
 	margin: 0 auto;
-	background: #CAEBF2;
+	background: #161B22;
 }
 
 .menuBar ul li{
@@ -36,7 +36,7 @@
 .menuBar ul li#projects a{
 	width: 190px;
 	height: 40px;
-	background-image: url("../../images/projectsHover.png")
+	background-image: url("../../images/projects.png")
 }
 
 .menuBar ul li#projects a:hover{
@@ -53,23 +53,22 @@
 	background-image: url("../../images/meHover.png")
 }
 
-
 .menuBar ul li#logo a{
 	width: 40px;
 	height: 40px;
-	background: url("../../images/main.png" );
-	background-size: 40px 40px		
+	background: url("../../../images/main2.png");
+	background-size: 40px 40px
 }
 
 .menuBar ul li#logo a:hover{
-	background: url("../../images/main2.png");
+	background: url("../../../images/main.png") ;
 	background-size: 40px 40px
 }
 
 .projectsList{
 	width: 100%;
 	height: 2000px;
-	background-color: #05386B;
+	background-color: #06090F;
 	text-align: center;
 	margin: 400px auto;
 	font: bold 45px "Century Gothic";
@@ -78,12 +77,12 @@
 
 .copyright{
 	width: 200px;
-	height: 40px;
-	background: #CAEBF2;
+	height: 100%;
+	background: #161B22;
 	font: bold 16px "Century Gothic";
-	color: #05386B;
-	text-align: center;
-	margin: 0px auto	
+	color: #CAEBF2;
+	margin: auto;
+	text-align: center		
 }
 
 .lang{
@@ -100,7 +99,7 @@
 }
 
 .tr{
-	color: #05386B;
+	color: #CAEBF2;
 	text-decoration: none
 }
 
@@ -108,6 +107,7 @@
 	color: #C1C5C0;
 	text-decoration: underline
 }
+
 
 .theme{
 	float: left;

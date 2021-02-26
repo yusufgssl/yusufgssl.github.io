@@ -1,37 +1,37 @@
 .menu{
 	width: 100%;
 	height: 40px;
-	background: #CAEBF2;
-	border-bottom: 2px #C1C5C0;
+	background: #161B22;
+	border-bottom: 2px #CAEBF2;
 	border-style: ridge
 }
 
 .header{
 	width: 100%;
 	height: 625px;
-	background: #05386B
+	background: #06090F
 }
 
 .main{
 	width: 100%;
 	height: 400px;
-	background-color: #CAEBF2;
-	border-top: 2px #C1C5C0;
-	border-bottom: 2px #C1C5C0;
+	background-color: #161B22;
+	border-top: 2px #CAEBF2;
+	border-bottom: 2px #CAEBF2;
 	border-style: ridge
 }
 
 .footer{
 	width: 100%;
-	height: 100%;
-	background: #05386B;
+	height: 40px;
+	background: #06090F;
 }
 
 .menuBar{
 	width: 420px;
 	height: 40px;
 	margin: 0 auto;
-	background: #CAEBF2;
+	background: #161B22;
 }
 
 .menuBar ul li{
@@ -65,12 +65,12 @@
 .menuBar ul li#logo a{
 	width: 40px;
 	height: 40px;
-	background: url("../../images/main.png" );
+	background: url("../../images/main2.png");
 	background-size: 40px 40px
 }
 
 .menuBar ul li#logo a:hover{
-	background: url("../../images/main2.png") ;
+	background: url("../../images/main.png") ;
 	background-size: 40px 40px
 }
 
@@ -87,14 +87,14 @@
 .shortInfo{
 	width: 636px;
 	height: 96px;
-	background: #CAEBF2;
+	background: #161B22;
 	margin: 50px auto;
-	border: 2px #000000;
-	border-color: #C1C5C0;
+	border: 2px;
+	border-color: #CAEBF2;
 	border-style: ridge;
 	border-radius: 8px 8px;
 	font: normal 14.5px "Century Gothic";
-	color: #05386B;
+	color: #CAEBF2;
 	text-align: center;
 }
 
@@ -113,7 +113,7 @@
 .copyright{
 	width: 200px;
 	height: 100%;
-	background: #05386B;
+	background: #06090F;
 	font: bold 16px "Century Gothic";
 	color: #CAEBF2;
 	margin: auto;
@@ -128,17 +128,17 @@
 	margin: 10px 40px;
 }
 
-.tr{
+.en{
 	color: #C1C5C0;
 	text-decoration: underline
 }
 
-.en{
-	color: #05386B;
+.tr{
+	color: #CAEBF2;
 	text-decoration: none
 }
 
-.en:hover{
+.tr:hover{
 	color: #C1C5C0;
 	text-decoration: underline
 }
@@ -174,7 +174,7 @@
 }
 
 .slide:nth-child(1) {
-  	background-image: url("../../images/hosgeldiniz.png");
+  	background-image: url("../../images/welcome.png");
 	background-size: 640px 360px
 }
 

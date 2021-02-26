@@ -126,3 +126,15 @@
 	color: #C1C5C0;
 	text-decoration: underline
 }
+
+.theme{
+	float: left;
+	width: 80px;
+	height: 40px;
+	margin: 5px 40px;
+}
+
+.theme ul li{
+	float: left;
+	display: block
+}

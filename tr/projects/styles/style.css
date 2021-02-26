@@ -57,12 +57,12 @@
 .menuBar ul li#logo a{
 	width: 40px;
 	height: 40px;
-	background: url("../../images/main.png" );
+	background: url("../../../images/main.png" );
 	background-size: 40px 40px		
 }
 
 .menuBar ul li#logo a:hover{
-	background: url("../../images/main2.png");
+	background: url("../../../images/main2.png");
 	background-size: 40px 40px
 }
 
@@ -107,4 +107,16 @@
 .en:hover{
 	color: #C1C5C0;
 	text-decoration: underline
+}
+
+.theme{
+	float: left;
+	width: 80px;
+	height: 40px;
+	margin: 5px 40px;
+}
+
+.theme ul li{
+	float: left;
+	display: block
 }
