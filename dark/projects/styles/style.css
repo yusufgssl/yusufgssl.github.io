@@ -36,11 +36,11 @@
 .menuBar ul li#projects a{
 	width: 190px;
 	height: 40px;
-	background-image: url("../../images/projects.png")
+	background-image: url("../../images/projectsHover.png")
 }
 
 .menuBar ul li#projects a:hover{
-	background-image: url("../../images/projectsHover.png")
+	background-image: url("../../images/projects.png")	
 }
 
 .menuBar ul li#me a{
