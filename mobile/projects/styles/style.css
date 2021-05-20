@@ -4,15 +4,18 @@
 	width: 100%;
 	height: 2500px;
 	display: flex;	
-	flex-direction: column
+	flex-direction: column;
 }
 
+.menu{
+	width: 100%;
+	height: 100px;
+}
 
 .back{
 	width: 80px;
 	height: 80px;
-	font: bold 80px "Century Gothic";
-	margin: 5px 30px;
+	margin: 20px
 }
 
 .copyright{
@@ -38,4 +41,9 @@ a:hover{
 	font: bold 70px "century gothic";
 	margin: auto;
 	color: #3c3c3c
+}
+
+#empty{
+	width: 100%;
+	height: 20px
 }
