@@ -1,0 +1,41 @@
+
+.main{
+	background-color: #e9e9e9;
+	width: 100%;
+	height: 2500px;
+	display: flex;	
+	flex-direction: column
+}
+
+
+.back{
+	width: 80px;
+	height: 80px;
+	font: bold 80px "Century Gothic";
+	margin: 5px 30px;
+}
+
+.copyright{
+	width: 100%;
+	height: 70px;
+	margin: auto  ;
+	font: bold 25px "Century Gothic";
+	color: #3c3c3c;
+	text-align: center;
+	background: #e9e9e9
+}
+
+a{
+	text-decoration: none;
+	color: #3c3c3c
+}
+
+a:hover{
+	opacity: 0.5
+}
+
+.comingsoon{
+	font: bold 70px "century gothic";
+	margin: auto;
+	color: #3c3c3c
+}

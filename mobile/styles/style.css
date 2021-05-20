@@ -1,0 +1,253 @@
+.header{
+	background:#e9e9e9;
+	background-size: 100% 600px;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 600px;
+}
+
+.main{
+	background-color: #e9e9e9;
+	width: 100%;
+	height: 100%;
+	display: flex;	
+	flex-direction: column
+}
+
+
+.lang{
+	float: right;
+	width: 80px;
+	height: 26px;
+	font: bold 26px "Century Gothic";
+	margin: 5px 30px;
+}
+
+.en{
+	color: #959595;
+	text-decoration: underline
+}
+
+.tr{
+	color: #3c3c3c;
+	text-decoration: none
+}
+
+.tr:hover{
+	color: #959595;
+	text-decoration: underline
+}
+
+.headerBox{
+	width:600px;
+	height: 600px;
+	display: block;
+	margin: auto
+}
+
+.logo{
+	display: flex;
+	flex-direction: column;
+	margin: 100px auto 10px;
+	width: 300px
+}
+
+.title{
+	width: 600px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	margin: 10px auto ;
+	justify-content: center;
+	font: normal 60px "century gothic";
+	text-align: center;
+}
+
+
+#slideshow {
+	overflow: hidden;
+  	height: 360px;
+  	width: 640px;
+  	margin: 20px auto;
+	border-radius: 30px;
+	border: 2px #3c3c3c;
+	border-style: solid
+}
+
+.slide-wrapper {
+  	width: 1920px;
+  	-webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  	float: left;
+  	height: 360px;
+  	width: 640px;
+}
+
+.slide:nth-child(1) {
+  	background-image: url("../../images/welcome.png");
+	background-size: 640px 360px
+}
+
+.slide:nth-child(2) {
+  	background-image: url("../../images/newtheme.png");
+	background-size: 640px 360px
+}
+
+.slide:nth-child(3) {
+  	background-image: url("../../images/mutluolyeter.png");
+	background-size: 640px 360px
+}
+
+.slide-photo {
+	margin: auto
+}
+
+@-webkit-keyframes slide {
+  	20% {margin-left: 0px;}
+  	30% {margin-left: -640px;}
+  	50% {margin-left: -640px;}
+  	60% {margin-left: -1280px;}
+  	70% {margin-left: -1280px;}
+  	80% {margin-left: -1280px;}
+  	90% {margin-left: -1280px;}
+}
+
+.social{
+	width: 100%;
+	height: 480px;
+	margin:  auto;
+}
+
+.pages{
+	width: 100%;
+	height: 50px;
+	margin: 10px auto;
+}
+
+.copyright{
+	width: 100%;
+	height: 70px;
+	margin: auto  ;
+	font: bold 25px "Century Gothic";
+	color: #3c3c3c;
+	text-align: center;
+	background: #e9e9e9
+}
+
+.icon{
+	width: 350px;
+	height: 350px;
+	margin:  10px auto;
+	display: flex;
+	flex-direction: column;
+	background-repeat: no-repeat
+}
+
+#linkedin{
+	background: url("../../images/linkedin.png");
+	background-size: 350px
+}
+
+#youtube{
+	background: url("../../images/youtube.png");
+	background-size: 350px
+}
+
+#github{
+	background: url("../../images/github.png");
+	background-size: 350px
+}
+
+#instagram{
+	background: url("../../images/instagram.png");
+	background-size: 350px
+}
+
+.bnick{
+	width: 400px;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	margin: 10px auto;
+	color:  #3c3c3c
+}
+
+.qr{
+	width: 100px;
+	height: 100px;
+	background: #E1C7C8;
+	display: flex;
+	flex-direction: row;
+}
+
+#qLinkedin{
+	background: url("../../images/linkedinQR.png");
+	background-size: 100px 100px;
+}
+
+#qYoutube{
+	background: url("../../images/YoutubeQR.png");
+	background-size: 100px 100px;
+}
+
+#qGithub{
+	background: url("../../images/GithubQR.png");
+	background-size: 100px 100px;
+}
+
+#qInstagram{
+	background: url("../../images/InstagramQR.png");
+	background-size: 100px 100px;
+}
+
+.nick{
+	margin: auto;
+	font: normal 30px "century gothic"
+}
+
+#aboutme{
+	font: normal 24px "century gothic";
+	height: 570px;
+	width: 700px;
+	color: #3c3c3c
+}
+
+#mail{
+	font: normal 30px "century gothic";
+	text-align: center;
+	color: #3c3c3c
+}
+
+#projects{
+	font: normal 40px "century gothic";
+	text-align: center;
+	color: #3c3c3c
+}
+
+a{
+	text-decoration: none;
+	color: #3c3c3c
+}
+
+a:hover{
+	text-decoration: underline;
+	opacity: 0.5
+}
+
+#linkedinBcg{
+	background: #e9e9e9 
+}
+
+#youtubeBcg{
+	background: #e9e9e9
+}
+
+#githubBcg{
+	background: #e9e9e9
+}
+
+#instagramBcg{
+	background: #e9e9e9
+}
